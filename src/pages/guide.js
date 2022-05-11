@@ -6,8 +6,8 @@ const Guide = () => {
       <header>
         <Link to="/" className="home-link">
           <div className="header-titles">
-            <h1>⚔ Goblin War ⚔️</h1>
-            <p>Only you can save us from Goblin town</p>
+            <h1>⚔ UST Defenders ⚔️</h1>
+            <p>Do Kwon calls for arms! Protect UST from depegging.</p>
           </div>
         </Link>
       </header>
@@ -17,7 +17,7 @@ const Guide = () => {
         
         <div>
           <span className="help">
-            Click as many goblins as you can within 15 seconds!
+            Click and destroy as many mumus as you can within 15 seconds!
           </span>
         </div>
       </div>

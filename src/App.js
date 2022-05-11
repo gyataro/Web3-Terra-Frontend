@@ -40,10 +40,10 @@ function App() {
   return (
     <main className="App">
       <header>
-        <div className="header-titles">
-          <h1>⚔ Goblin War ⚔</h1>
-          <p>Only you can save us from Goblin town</p>
-        </div>
+          <div className="header-titles">
+            <h1>🌕🌎 UST Defenders ⚔️</h1>
+            <p>Do Kwon calls for arms! Protect UST from depegging.</p>
+          </div>
       </header>
 
       {/* If not connected, show the goblin GIF! */}
