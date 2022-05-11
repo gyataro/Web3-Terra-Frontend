@@ -1,6 +1,7 @@
 import './App.css';
 import { useWallet, WalletStatus } from "@terra-money/wallet-provider";
 import Menu from './components/Menu';
+import WalletAddress from './components/WalletAddress';
 
 function App() {
   const { status, connect, disconnect, availableConnectTypes } = useWallet();
@@ -44,6 +45,7 @@ function App() {
             <h1>🌕🌎 UST Defenders ⚔️</h1>
             <p>Do Kwon calls for arms! Protect UST from depegging.</p>
           </div>
+          <WalletAddress/>
       </header>
 
       {/* If not connected, show the goblin GIF! */}

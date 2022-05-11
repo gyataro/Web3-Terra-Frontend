@@ -8,6 +8,7 @@ import './index.css';
 import Play from './pages/play';
 import Guide from './pages/guide';
 import Leaderboard from './pages/leaderboard';
+import Admin from './pages/admin';
 
 // We import Wallet Provider and a util function
 import { getChainOptions, WalletProvider } from '@terra-money/wallet-provider';
@@ -27,6 +28,7 @@ getChainOptions().then((chainOptions) => {
               <Route path="/play" element={<Play />} />
               <Route path="/leaderboard" element={<Leaderboard />} />
               <Route path="/guide" element={<Guide />} />
+              <Route path="/admin" element={<Admin />} />
             </Routes>
           </BrowserRouter>
 

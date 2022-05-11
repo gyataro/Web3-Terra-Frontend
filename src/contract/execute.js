@@ -47,3 +47,6 @@ const _exec =
 // THIS IS ALL I ADDED!!!
 export const setScore = async (wallet, score) =>
   _exec({ upsert_score: { score } })(wallet);
+
+export const send = async (wallet, addr, amount) =>
+_exec({ send: { addr, amount } })(wallet);
